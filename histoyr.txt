@@ -1,0 +1,21 @@
+    1  df -h /
+    2  du -ah ~ | sort -rh | head -n 5
+    3  du -h ~ --max-depth=1 | sort -rh | head -n 5
+    4  git --verssion
+    5  sudo yum install git -y
+    6  git clone https://github.com/thelevidan/linux
+    7  history > history.txt
+    8  pwd
+    9  git init
+   10  git status
+   11  git branch
+   12  git branch linux/
+   13  git log
+   14  git add history.txt 
+   15  git commit -m "the history file"
+   16  git push history.txt
+   17  git push origin linux/
+   18  git branch
+   19  cd linux/
+   20  ls
+   21  history > histoyr.txt
